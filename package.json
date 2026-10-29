@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "dsh-qq-stickers",
   "version": "1.0.0",
   "private": false,
@@ -39,10 +39,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Derpyu520/dsh-qq-stickers.git"
+    "url": "git+https://github.com/whatxin7/dsh-qq-stickers.git"
   },
-  "homepage": "https://github.com/Derpyu520/dsh-qq-stickers#readme",
+  "homepage": "https://github.com/whatxin7/dsh-qq-stickers#readme",
   "bugs": {
-    "url": "https://github.com/Derpyu520/dsh-qq-stickers/issues"
+    "url": "https://github.com/whatxin7/dsh-qq-stickers/issues"
   }
 }
+
+

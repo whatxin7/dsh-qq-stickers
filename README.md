@@ -1,4 +1,4 @@
-# dsh-qq-stickers
+﻿# dsh-qq-stickers
 
 > **一句话**：让 agent 真的会用表情包 —— 表情库有索引、按情绪能搜到、注入提示词时带得动发送参数、备注不变成跨会话注入通道。
 >
@@ -19,7 +19,7 @@
 ## 安装与自检
 
 ```bash
-git clone https://github.com/Derpyu520/dsh-qq-stickers.git
+git clone https://github.com/whatxin7/dsh-qq-stickers.git
 cd dsh-qq-stickers
 node --test                # 13 个用例
 node bin/sticker.mjs faces --q 无语
@@ -111,13 +111,13 @@ const block = buildStickerContext(entries, 8);   // 直接塞进系统提示词
 | 项目 | 对应成本条目 |
 |---|---|
 | **dsh-qq-stickers**（本仓库） | 表情包 / 斗图 |
-| [dsh-token-meter](https://github.com/Derpyu520/dsh-token-meter) | 用量与成本核算 |
-| [dsh-qq-access](https://github.com/Derpyu520/dsh-qq-access) | 好友 / 白名单 / 权限 |
-| [dsh-qq-voice](https://github.com/Derpyu520/dsh-qq-voice) | 语音 / 唱歌 / 音色 |
-| [dsh-mcp-safe-tools](https://github.com/Derpyu520/dsh-mcp-safe-tools) | 能力扩展（视觉 / 搜索 / 语感） |
-| [dsh-session-link](https://github.com/Derpyu520/dsh-session-link) | 联通会话 / 行为调优 |
-| [dsh-persona-kit](https://github.com/Derpyu520/dsh-persona-kit) | 人格 / 角色卡 |
-| [qq-bridge](https://github.com/Derpyu520/qq-bridge) | 桥接内核（旗舰仓库） |
+| [dsh-token-meter](https://github.com/whatxin7/dsh-token-meter) | 用量与成本核算 |
+| [dsh-qq-access](https://github.com/whatxin7/dsh-qq-access) | 好友 / 白名单 / 权限 |
+| [dsh-qq-voice](https://github.com/whatxin7/dsh-qq-voice) | 语音 / 唱歌 / 音色 |
+| [dsh-mcp-safe-tools](https://github.com/whatxin7/dsh-mcp-safe-tools) | 能力扩展（视觉 / 搜索 / 语感） |
+| [dsh-session-link](https://github.com/whatxin7/dsh-session-link) | 联通会话 / 行为调优 |
+| [dsh-persona-kit](https://github.com/whatxin7/dsh-persona-kit) | 人格 / 角色卡 |
+| [qq-bridge](https://github.com/whatxin7/qq-bridge) | 桥接内核（旗舰仓库） |
 
 ## English
 
@@ -125,4 +125,6 @@ A sticker toolkit for QQ agents: a normalized sticker store with AI-written note
 
 ## License
 
-MIT © Derpyu520
+MIT © whatxin7
+
+
