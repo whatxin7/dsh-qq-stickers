@@ -1,0 +1,48 @@
+{
+  "name": "dsh-qq-stickers",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "description": "QQ 表情包工具链：表情库（收藏表情 + AI 备注 + 受控标签词表）、按情绪检索、给模型注入的可用表情摘要、QQ 系统表情表查询。全离线。",
+  "keywords": [
+    "qq",
+    "sticker",
+    "emoji",
+    "onebot",
+    "tags",
+    "llm",
+    "prompt-injection",
+    "context"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "sticker": "./bin/sticker.mjs"
+  },
+  "exports": {
+    ".": "./src/sticker-lib.js",
+    "./lib": "./src/sticker-lib.js",
+    "./tags": "./src/sticker-tags.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "faces": "node bin/sticker.mjs faces"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Derpyu520/dsh-qq-stickers.git"
+  },
+  "homepage": "https://github.com/Derpyu520/dsh-qq-stickers#readme",
+  "bugs": {
+    "url": "https://github.com/Derpyu520/dsh-qq-stickers/issues"
+  }
+}
